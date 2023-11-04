@@ -1,52 +1,96 @@
 <!DOCTYPE html>
 <html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- displays site properly based on user's device -->
 
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="./images/favicon-32x32.png"
+    />
+    <link rel="stylesheet" href="./index.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Agbalumo&family=Poppins:wght@200&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Agbalumo&family=Poppins:wght@200;600&display=swap"
+      rel="stylesheet"
+    />
 
-  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
-  <link rel="stylesheet" href="./index.css">
-  <link rel="preconnect" href="https://fonts.googleapis.com">
-  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Agbalumo&family=Poppins:wght@200&display=swap" rel="stylesheet">
+    <title>Frontend Mentor | Four card feature section</title>
 
-  <title>Frontend Mentor | Four card feature section</title>
+    <style>
+      .attribution {
+        font-size: 11px;
+        text-align: center;
+      }
+      .attribution a {
+        color: hsl(228, 45%, 44%);
+      }
+    </style>
+  </head>
 
-  <style>
-    .attribution { font-size: 11px; text-align: center; }
-    .attribution a { color: hsl(228, 45%, 44%); }
-  </style>
-</head>
-
-<body>
-  <div class="title">
-    <p >Reliable, efficient delivery</p> <p>Powered by Technology</p> 
-    <h6 style="color: grey; opacity: 75%;">Our Artificial Intelligence powered tools use millions of project data points to ensure that your project is successful</h6>
-  </div>
-
-  </div>   
-  <div class="container">
-
-    <div class="box box1">Supervisor<p style="color: grey; opacity: 75%;">Monitors activity to identify project roadblocks</p><img src="images/icon-supervisor.svg" alt="magnifier">
+  <body>
+    <div class="title">
+      <p>Reliable, efficient delivery</p>
+      <p><span style="font-weight: 600">Powered by Technology</span></p>
+      <p style="color: grey; opacity: 75%;font-size: smaller;"">
+        Our Artificial Intelligence powered tools use millions of project data
+        points to ensure that your project is successful
+      </p>
     </div>
 
-    <div class="middle">
-      <div class="inner box2">Team Builder <p style="color: grey; opacity: 75%;"> Scans our talent network to create the optimal team for your project</p><img src="images/icon-team-builder.svg" alt="house"></div>
+    <div class="container">
+      <div class="box box1">
+        <p style="font-weight: 600;">Supervisor</p>
+        <p style="color: grey; opacity: 75%">
+          Monitors activity to identify project roadblocks
+        </p>
+        <img src="images/icon-supervisor.svg" alt="magnifier" />
+      </div>
 
-      <div class="inner box3">Karma <p style="color: grey; opacity: 75%;">  Regularly evaluates our talent to ensure quality</p><img src="images/icon-karma.svg" alt="icon-karma"></div>
+      <div class="middle">
+        <div class="inner box2">
+          <p style="font-weight: 600;">Team Builder</p>
+          <p style="color: grey; opacity: 75%">
+            Scans our talent network to create the optimal team for your project
+          </p>
+          <img src="images/icon-team-builder.svg" alt="house" />
+        </div>
 
-    </div> 
+        <div class="inner box3">
+          <p style="font-weight: 600;">Karma</p>
+          <p style="color: grey; opacity: 75%">
+            Regularly evaluates our talent to ensure quality
+          </p>
+          <img src="images/icon-karma.svg" alt="icon-karma" />
+        </div>
+      </div>
 
-    <div class="box box4">Calculator <p style="color: grey; opacity: 75%;"> Uses data from past projects to provide better delivery estimates</p><img src="images/icon-calculator.svg" alt="calcculator"></div>
+      <div class="box box4">
+        <p style="font-weight: 600;">Calculator</p>
+        <p style="color: grey; opacity: 75%">
+          Uses data from past projects to provide better delivery estimates
+        </p>
+        <img src="images/icon-calculator.svg" alt="calcculator" />
+      </div>
+    </div>
 
-</div>
-
-<footer class="footer">
-  <p class="attribution">
-    Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
-    Coded by <a href="#">Ryan Li</a>.
-  </p>
-</footer>
-</body>
+    <footer class="footer">
+      <p class="attribution">
+        Challenge by
+        <a href="https://www.frontendmentor.io?ref=challenge" target="_blank"
+          >Frontend Mentor</a
+        >. Coded by <a href="#">Ryan Li</a>.
+      </p>
+    </footer>
+  </body>
 </html>
