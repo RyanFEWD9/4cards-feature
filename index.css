@@ -107,4 +107,6 @@ img {
 
 body {
   font-family: "Poppins", "Agbalumo", Arial, sans-serif;
+  font-weight: 200, 400, 600;
+  font-size: 15px;
 }
